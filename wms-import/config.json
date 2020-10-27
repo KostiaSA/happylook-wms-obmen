@@ -1,0 +1,8 @@
+{
+    "sqlServerAddress": "s2008\\cyan",
+    "sqlServerPort": 1433,
+    "sqlLogin": "sa",
+    "sqlPassword": "",
+    "sqlDatabase": "СчастливыйВзглядТест",
+    "port": 7171
+}

@@ -1,0 +1,10 @@
+{
+    "sqlServerAddress": "s2008\\cyan",
+    "sqlServerPort": 1433,
+    "sqlLogin": "sa",
+    "sqlPassword": "",
+    "sqlDatabase": "СчастливыйВзглядТест",
+    "import1cServiceUrl": "http://192.168.0.14:9191",
+    "checkSqlPeriodMs": 10000,
+    "sendHttpPeriodMs": 10000
+}

@@ -1,0 +1,21 @@
+{
+  "name": "wms-import",
+  "version": "1.0.0",
+  "main": "lib/import.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node lib/import.js --run",
+    "test-sql": "node lib/import.js --test-sql",
+    "make-exe": "pkg lib/import.js --target node10-win-x64"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/mssql": "^4.0.13",
+    "@types/node": "^11.13.4",
+    "app-root-path": "^2.2.1",
+    "command-line-args": "^5.1.1",
+    "express": "^4.16.4",
+    "mssql": "^5.1.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
